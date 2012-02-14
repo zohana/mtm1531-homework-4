@@ -1,0 +1,25 @@
+
+
+
+1) SELECT 
+     Name,Release_Date,Director 
+     FROM `movies` 
+     Limit 1
+2) SELECT Name, Release_Date
+     FROM `movies`
+     ORDER BY Name ASC
+     LIMIT 3 
+ 
+3) SELECT Name, Director
+      FROM `movies`
+      ORDER BY Release_Date DESC
+      LIMIT 0 , 30
+ 
+4) UPDATE movies
+      SET Name= 'Twilight-The New Moon',
+      Director='Wenky Finns'
+      WHERE id=1
+
+5) DELETE 
+      FROM movies
+      WHERE id = '1'
